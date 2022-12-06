@@ -12,9 +12,9 @@ function ArticlePage() {
   return (
     <div><h1>{article.title}</h1>
     {
-      article.content.map((art, key) => (
+      article.content.map((art, key) => {
             <p key={key}>{art}</p>
-      ))
+      })
     }
     </div>
   )

@@ -6,13 +6,11 @@ import ArticlePage from "./pages/ArticlePage";
 import ArticlesListPage from "./pages/ArticlesListPage";
 import HomePage from "./pages/HomePage";
 import NotFoundPage from "./pages/NotFoundPage";
-import NavBar from "./NavBar";
-
 
 function App() {
       return (
             <div className="App">
-            <NavBar/>
+                  <h1>My Awesome Blog</h1>
                   <div id="page-body">
                         <Routes>
                               <Route path="/" element={<HomePage />} />

@@ -10,13 +10,7 @@ function ArticlePage() {
       console.log(article)
 
   return (
-    <div><h1>{article.title}</h1>
-    {
-      article.content.map((art, key) => (
-            <p key={key}>{art}</p>
-      ))
-    }
-    </div>
+    <div><h1>{article.title}</h1></div>
   )
 }
 

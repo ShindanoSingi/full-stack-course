@@ -51,12 +51,8 @@ nav a:hover {
 }
 
 .nav-active{
-  background: white;
-  height: 20px;
-  color: red;
-  border: 2px solid red;
-  padding: 8px;
-  border-radius: 10px;
+  background: black;
+  color: white;
 }
 
 #page-body {
